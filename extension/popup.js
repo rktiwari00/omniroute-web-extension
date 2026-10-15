@@ -47,7 +47,20 @@ const I18N = {
     innerEmailText: 'OmniRoute requires the token followed by the email used in Inner.ai.',
     emailLabel: 'Email',
     m365PathPrompt: 'Copy the specific Chathub path segment present in the WebSocket URL.',
-    m365PathLabel: 'Chathub Segment'
+    m365PathLabel: 'Chathub Segment',
+    updaterTitle: 'OmniRoute Updater',
+    updaterCheckNow: 'Check Now',
+    updaterChecking: 'Checking for updates...',
+    updaterServerTitle: 'OmniRoute Server',
+    updaterExtensionTitle: 'Web Extension',
+    updaterUpToDate: 'Up to date',
+    updaterUpdateAvailable: 'Update Available',
+    updaterServerOffline: 'Server Offline',
+    updaterCopyCommand: 'Copy Update Command',
+    updaterCopied: 'Copied!',
+    updaterDownload: 'Download Latest Release',
+    updaterSettings: 'Settings',
+    updaterClose: 'Close',
   },
   pt_PT: {
     detectedNode: 'NODE DETETADO',
@@ -95,7 +108,20 @@ const I18N = {
     innerEmailText: 'O OmniRoute exige o token seguido do email usado no Inner.ai.',
     emailLabel: 'Email',
     m365PathPrompt: 'Copia o segmento específico do caminho Chathub presente no URL do WebSocket.',
-    m365PathLabel: 'Segmento Chathub'
+    m365PathLabel: 'Segmento Chathub',
+    updaterTitle: 'Atualizador OmniRoute',
+    updaterCheckNow: 'Verificar Agora',
+    updaterChecking: 'A verificar atualizações...',
+    updaterServerTitle: 'Servidor OmniRoute',
+    updaterExtensionTitle: 'Extensão Web',
+    updaterUpToDate: 'Atualizado',
+    updaterUpdateAvailable: 'Atualização Disponível',
+    updaterServerOffline: 'Servidor Offline',
+    updaterCopyCommand: 'Copiar Comando de Atualização',
+    updaterCopied: 'Copiado!',
+    updaterDownload: 'Descarregar Versão Recente',
+    updaterSettings: 'Definições',
+    updaterClose: 'Fechar',
   },
   es: {
     detectedNode: 'NODO DETECTADO',
@@ -143,7 +169,20 @@ const I18N = {
     innerEmailText: 'OmniRoute requiere el token seguido del correo usado en Inner.ai.',
     emailLabel: 'Correo',
     m365PathPrompt: 'Copia el segmento de ruta Chathub en la URL del WebSocket.',
-    m365PathLabel: 'Segmento Chathub'
+    m365PathLabel: 'Segmento Chathub',
+    updaterTitle: 'Actualizador OmniRoute',
+    updaterCheckNow: 'Comprobar ahora',
+    updaterChecking: 'Buscando actualizaciones...',
+    updaterServerTitle: 'Servidor OmniRoute',
+    updaterExtensionTitle: 'Extensión Web',
+    updaterUpToDate: 'Actualizado',
+    updaterUpdateAvailable: 'Actualización disponible',
+    updaterServerOffline: 'Servidor sin conexión',
+    updaterCopyCommand: 'Copiar comando de actualización',
+    updaterCopied: '¡Copiado!',
+    updaterDownload: 'Descargar última versión',
+    updaterSettings: 'Configuración',
+    updaterClose: 'Cerrar',
   },
   de: {
     detectedNode: 'ERKANNTES KNOTENPUNKT',
@@ -191,7 +230,20 @@ const I18N = {
     innerEmailText: 'OmniRoute benötigt das Token gefolgt von der Inner.ai E-Mail.',
     emailLabel: 'E-Mail',
     m365PathPrompt: 'Spezifisches Chathub-Segment aus der WebSocket-URL kopieren.',
-    m365PathLabel: 'Chathub-Segment'
+    m365PathLabel: 'Chathub-Segment',
+    updaterTitle: 'OmniRoute Updater',
+    updaterCheckNow: 'Jetzt prüfen',
+    updaterChecking: 'Suche nach Updates...',
+    updaterServerTitle: 'OmniRoute Server',
+    updaterExtensionTitle: 'Web-Erweiterung',
+    updaterUpToDate: 'Auf dem neuesten Stand',
+    updaterUpdateAvailable: 'Update verfügbar',
+    updaterServerOffline: 'Server offline',
+    updaterCopyCommand: 'Update-Befehl kopieren',
+    updaterCopied: 'Kopiert!',
+    updaterDownload: 'Neueste Version herunterladen',
+    updaterSettings: 'Einstellungen',
+    updaterClose: 'Schließen',
   },
   fr: {
     detectedNode: 'NŒUD DÉTECTÉ',
@@ -239,7 +291,20 @@ const I18N = {
     innerEmailText: 'OmniRoute nécessite le jeton suivi de l’e-mail utilisé sur Inner.ai.',
     emailLabel: 'E-mail',
     m365PathPrompt: 'Copiez le segment de chemin Chathub présent dans l’URL WebSocket.',
-    m365PathLabel: 'Segment Chathub'
+    m365PathLabel: 'Segment Chathub',
+    updaterTitle: 'Mise à jour OmniRoute',
+    updaterCheckNow: 'Vérifier maintenant',
+    updaterChecking: 'Recherche de mises à jour...',
+    updaterServerTitle: 'Serveur OmniRoute',
+    updaterExtensionTitle: 'Extension Web',
+    updaterUpToDate: 'À jour',
+    updaterUpdateAvailable: 'Mise à jour disponible',
+    updaterServerOffline: 'Serveur hors ligne',
+    updaterCopyCommand: 'Copier la commande de mise à jour',
+    updaterCopied: 'Copié !',
+    updaterDownload: 'Télécharger la dernière version',
+    updaterSettings: 'Paramètres',
+    updaterClose: 'Fermer',
   },
   it: {
     detectedNode: 'NODO RILEVATO',
@@ -287,7 +352,20 @@ const I18N = {
     innerEmailText: 'OmniRoute richiede il token seguito dall’email utilizzata su Inner.ai.',
     emailLabel: 'Email',
     m365PathPrompt: 'Copia il segmento del percorso Chathub presente nell’URL del WebSocket.',
-    m365PathLabel: 'Segmento Chathub'
+    m365PathLabel: 'Segmento Chathub',
+    updaterTitle: 'Aggiornamento OmniRoute',
+    updaterCheckNow: 'Controlla ora',
+    updaterChecking: 'Controllo aggiornamenti...',
+    updaterServerTitle: 'Server OmniRoute',
+    updaterExtensionTitle: 'Estensione Web',
+    updaterUpToDate: 'Aggiornato',
+    updaterUpdateAvailable: 'Aggiornamento disponibile',
+    updaterServerOffline: 'Server non in linea',
+    updaterCopyCommand: 'Copia comando di aggiornamento',
+    updaterCopied: 'Copiato!',
+    updaterDownload: 'Scarica ultima versione',
+    updaterSettings: 'Impostazioni',
+    updaterClose: 'Chiudi',
   }
 };
 
@@ -321,7 +399,17 @@ function applyLocalization() {
   setText('#securityNoticeTitle', 'localSecurityNoticeTitle', 'LOCAL SECURITY NOTICE');
   setText('#securityNoticeText1', 'localSecurityNoticeText1', 'Temporary cookies and authorization headers may be stored locally for up to 10 minutes during provider detection.');
   setText('#securityNoticeText2', 'localSecurityNoticeText2', 'Copied credentials remain on your clipboard until replaced. Paste immediately into OmniRoute and overwrite the clipboard afterwards.');
-  setText('#clearDataBtn', 'clearCapturedData', 'Clear captured data');
+    setText('#clearDataBtn', 'clearCapturedData', 'Clear captured data');
+  setText('#modalUpdaterTitle', 'updaterTitle', 'OmniRoute Updater');
+  setText('#serverCardTitle', 'updaterServerTitle', 'OmniRoute Server');
+  setText('#extCardTitle', 'updaterExtensionTitle', 'Web Extension');
+  setText('#checkNowText', 'updaterCheckNow', 'Check Now');
+  setText('#copyCmdText', 'updaterCopyCommand', 'Copy Update Command');
+  setText('#downloadExtText', 'updaterDownload', 'Download Latest Release');
+  setText('#openSettingsText', 'updaterSettings', 'Settings');
+  if (latestUpdateInfo) {
+    renderUpdaterUI(latestUpdateInfo);
+  }
 
   const searchInput = document.querySelector('#searchInput');
   if (searchInput) {
@@ -816,6 +904,115 @@ async function copySelected() {
   }
 }
 
+
+let latestUpdateInfo = null;
+
+function renderUpdaterUI(info) {
+  if (!info) return;
+  latestUpdateInfo = info;
+
+  const btnText = $('#updaterBtnText');
+  const btn = $('#updaterBtn');
+  const serverVersion = $('#serverVersionText');
+  const serverBadge = $('#serverStatusBadge');
+  const copyCmdBtn = $('#copyUpdateCmdBtn');
+  const extVersion = $('#extVersionText');
+  const extBadge = $('#extStatusBadge');
+  const downloadBtn = $('#downloadExtBtn');
+
+  // Update header badge
+  if (info.hasUpdate) {
+    if (btn) {
+      btn.className = 'updater-badge badge-update';
+      btn.title = t('updaterUpdateAvailable', 'Update Available');
+    }
+    if (btnText) btnText.textContent = t('updaterUpdateAvailable', 'Update Available');
+  } else {
+    if (btn) {
+      btn.className = 'updater-badge badge-ok';
+      btn.title = t('updaterUpToDate', 'Up to date');
+    }
+    if (btnText) btnText.textContent = `v${info.extension?.current || '8.0.0'}`;
+  }
+
+  // Render Server Card
+  if (info.server) {
+    const s = info.server;
+    if (s.status === 'update_available') {
+      if (serverVersion) serverVersion.textContent = `v${s.current || '?'} → v${s.latest}`;
+      if (serverBadge) {
+        serverBadge.className = 'status-pill status-update';
+        serverBadge.textContent = t('updaterUpdateAvailable', 'Update Available');
+      }
+      if (copyCmdBtn) copyCmdBtn.style.display = 'flex';
+    } else if (s.status === 'server_offline') {
+      if (serverVersion) serverVersion.textContent = s.latest ? `npm: v${s.latest}` : t('updaterServerOffline', 'Server Offline');
+      if (serverBadge) {
+        serverBadge.className = 'status-pill status-offline';
+        serverBadge.textContent = t('updaterServerOffline', 'Server Offline');
+      }
+      if (copyCmdBtn) copyCmdBtn.style.display = 'flex';
+    } else {
+      if (serverVersion) serverVersion.textContent = `v${s.current || s.latest || '3.8.49'}`;
+      if (serverBadge) {
+        serverBadge.className = 'status-pill status-ok';
+        serverBadge.textContent = t('updaterUpToDate', 'Up to date');
+      }
+      if (copyCmdBtn) copyCmdBtn.style.display = 'none';
+    }
+  }
+
+  // Render Extension Card
+  if (info.extension) {
+    const e = info.extension;
+    if (e.status === 'update_available') {
+      if (extVersion) extVersion.textContent = `v${e.current} → v${e.latest}`;
+      if (extBadge) {
+        extBadge.className = 'status-pill status-update';
+        extBadge.textContent = t('updaterUpdateAvailable', 'Update Available');
+      }
+      if (downloadBtn) {
+        downloadBtn.style.display = 'inline-flex';
+        downloadBtn.href = e.releaseUrl || 'https://github.com/rktiwari00/omniroute-web-extension/releases';
+      }
+    } else {
+      if (extVersion) extVersion.textContent = `v${e.current || '8.0.0'}`;
+      if (extBadge) {
+        extBadge.className = 'status-pill status-ok';
+        extBadge.textContent = t('updaterUpToDate', 'Up to date');
+      }
+      if (downloadBtn) downloadBtn.style.display = 'none';
+    }
+  }
+}
+
+async function runUpdaterCheck(forceRefresh = false) {
+  const checkIcon = $('#checkNowIcon');
+  const btn = $('#updaterBtn');
+  if (checkIcon) checkIcon.classList.add('spinning');
+  if (btn && forceRefresh) btn.classList.add('badge-checking');
+
+  try {
+    const settings = await chrome.storage.local.get(['omniroute_url', 'omniroute_api_key']);
+    const omnirouteUrl = settings.omniroute_url || 'http://localhost:20128';
+    const apiKey = settings.omniroute_api_key || '';
+
+    if (typeof OmniRouteUpdater !== 'undefined') {
+      const info = await OmniRouteUpdater.checkForUpdates({
+        omnirouteUrl,
+        apiKey,
+        forceRefresh
+      });
+      renderUpdaterUI(info);
+    }
+  } catch (err) {
+    console.warn('Updater check error:', err);
+  } finally {
+    if (checkIcon) checkIcon.classList.remove('spinning');
+    if (btn) btn.classList.remove('badge-checking');
+  }
+}
+
 async function init() {
   // Load saved language preference or default to English
   try {
@@ -845,6 +1042,14 @@ async function init() {
   }
 
   selected = providers.find(p => hostMatches(host, p.domains)) || providers[0];
+
+  // Run background update check if enabled
+  try {
+    const settings = await chrome.storage.local.get('auto_check_updates');
+    if (settings.auto_check_updates !== false) {
+      runUpdaterCheck(false);
+    }
+  } catch {}
   selectProvider(selected);
   render();
 }
@@ -856,5 +1061,50 @@ $('#settingsBtn').addEventListener('click', () => chrome.runtime.openOptionsPage
 $('#privacyBtn').addEventListener('click', () => chrome.tabs.create({ url: chrome.runtime.getURL('privacy.html') }));
 $('#clearDataBtn')?.addEventListener('click', clearCapturedData);
 $('#langSelect')?.addEventListener('change', (e) => setLanguage(e.target.value));
+
+$('#updaterBtn')?.addEventListener('click', () => {
+  const modal = $('#updaterModal');
+  if (!modal) return;
+  const isHidden = modal.hasAttribute('hidden');
+  if (isHidden) {
+    modal.removeAttribute('hidden');
+    if (!latestUpdateInfo) {
+      runUpdaterCheck(false);
+    }
+  } else {
+    modal.setAttribute('hidden', '');
+  }
+});
+
+$('#closeUpdaterBtn')?.addEventListener('click', () => {
+  $('#updaterModal')?.setAttribute('hidden', '');
+});
+
+$('#updaterModal')?.addEventListener('click', (e) => {
+  if (e.target.id === 'updaterModal') {
+    $('#updaterModal')?.setAttribute('hidden', '');
+  }
+});
+
+$('#checkNowBtn')?.addEventListener('click', () => {
+  runUpdaterCheck(true);
+});
+
+$('#copyUpdateCmdBtn')?.addEventListener('click', async () => {
+  const cmd = (typeof OmniRouteUpdater !== 'undefined' && OmniRouteUpdater.UPDATE_COMMAND)
+    ? OmniRouteUpdater.UPDATE_COMMAND
+    : 'npm install -g omniroute@latest';
+  await navigator.clipboard.writeText(cmd);
+  const copyText = $('#copyCmdText');
+  if (copyText) {
+    const orig = copyText.textContent;
+    copyText.textContent = t('updaterCopied', 'Copied!');
+    setTimeout(() => { copyText.textContent = orig; }, 2000);
+  }
+});
+
+$('#openSettingsBtn')?.addEventListener('click', () => {
+  chrome.runtime.openOptionsPage();
+});
 
 init().catch(e => setStatus(e.message, 'error'));
