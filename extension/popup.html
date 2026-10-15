@@ -25,6 +25,10 @@
         </div>
       </div>
       <div class="header-actions">
+        <button id="updaterBtn" class="updater-badge badge-ok" title="OmniRoute Updater" aria-label="OmniRoute Updater">
+          <span class="updater-dot"></span>
+          <span id="updaterBtnText">v8.0.0</span>
+        </button>
         <select id="langSelect" class="lang-select" title="Change Language" aria-label="Language">
           <option value="en">EN</option>
           <option value="pt_PT">PT</option>
@@ -95,6 +99,64 @@
     </form>
   </dialog>
 
+  <div id="updaterModal" class="updater-overlay" hidden>
+    <div class="updater-dialog">
+      <div class="updater-header">
+        <h2 id="modalUpdaterTitle">OmniRoute Updater</h2>
+        <button id="closeUpdaterBtn" class="updater-close-btn" aria-label="Close">✕</button>
+      </div>
+
+      <div class="updater-body">
+        <!-- Server Card -->
+        <div class="updater-card" id="serverCard">
+          <div class="updater-card-header">
+            <span class="card-icon">⚡</span>
+            <div class="card-titles">
+              <strong id="serverCardTitle">OmniRoute Server</strong>
+              <span id="serverVersionText" class="card-sub">Checking...</span>
+            </div>
+            <span id="serverStatusBadge" class="status-pill status-checking">...</span>
+          </div>
+          <div id="serverActionRow" class="updater-card-action">
+            <button id="copyUpdateCmdBtn" class="copy-cmd-btn" style="display:none;">
+              <span>📋</span>
+              <span id="copyCmdText">Copy Update Command</span>
+            </button>
+          </div>
+        </div>
+
+        <!-- Extension Card -->
+        <div class="updater-card" id="extCard">
+          <div class="updater-card-header">
+            <span class="card-icon">🧩</span>
+            <div class="card-titles">
+              <strong id="extCardTitle">Web Extension</strong>
+              <span id="extVersionText" class="card-sub">v8.0.0</span>
+            </div>
+            <span id="extStatusBadge" class="status-pill status-ok">Up to date</span>
+          </div>
+          <div id="extActionRow" class="updater-card-action">
+            <a id="downloadExtBtn" class="download-link" target="_blank" rel="noopener noreferrer" style="display:none;">
+              <span>↗</span>
+              <span id="downloadExtText">Download Latest Release</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="updater-footer">
+        <button id="checkNowBtn" class="refresh-btn">
+          <span id="checkNowIcon" class="refresh-icon">↻</span>
+          <span id="checkNowText">Check Now</span>
+        </button>
+        <button id="openSettingsBtn" class="text-link-btn">
+          <span id="openSettingsText">Settings</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <script src="updater.js"></script>
   <script src="popup.js"></script>
 </body>
 </html>
