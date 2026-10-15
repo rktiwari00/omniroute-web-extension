@@ -74,6 +74,10 @@
     "https://www.perplexity.ai/*",
     "https://www.zenmux.ai/*",
     "https://yuanbao.tencent.com/*",
-    "https://zenmux.ai/*"
+    "https://zenmux.ai/*",
+    "http://localhost:20128/*",
+    "http://127.0.0.1:20128/*",
+    "https://registry.npmjs.org/omniroute/*",
+    "https://api.github.com/repos/rktiwari00/omniroute-web-extension/*"
   ]
 }
