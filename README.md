@@ -54,6 +54,18 @@ UNISTALL
 
 
 
+OMNIROUTE UPDATER
+======================================================================
+
+The extension includes a built-in Software Version Updater:
+1. OmniRoute Server Status: Checks your local OmniRoute instance (default: http://localhost:20128) or npm registry for the latest releases.
+   - Click the updater badge in the top header to view version info.
+   - If an update is available, click "Copy Update Command" to get:
+     npm install -g omniroute@latest
+2. Web Extension Releases: Automatically queries GitHub releases to alert you when a new version of the extension is published.
+3. Configurable Settings: Open Settings (gear icon) to configure custom OmniRoute server ports, management API keys, and automatic update checking.
+
+
 SECURITY RECOMMENDATION
 ======================================================================
 
