@@ -41,11 +41,13 @@
   "default_locale": "en",
   "host_permissions": [
     "https://*.google.com/*",
+    "https://google.com/*",
     "https://accounts.google.com/*",
     "https://agent.adapta.one/*",
     "https://app.blackbox.ai/*",
     "https://arena.ai/*",
     "https://business.gemini.google/*",
+    "https://*.gemini.google/*",
     "https://chat.deepseek.com/*",
     "https://chat.qwen.ai/*",
     "https://chat.z.ai/*",

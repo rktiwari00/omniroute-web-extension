@@ -1,4 +1,4 @@
-﻿   _      _____ __  __ _____        _  ___   _ ____  
+   _      _____ __  __ _____        _  ___   _ ____  
   | |    |_   _|  \/  |  __ \ /\   | |/ / | | / ___| 
   | |      | | | \  / | |__) /  \  | ' /| | | \___ \ 
   | |      | | | |\/| |  ___/ /\ \ |  < | | | |___) |
@@ -7,7 +7,7 @@
 
 OMNIROUTE-LIMPAKUS
 INSTALL AND UNISTALL GUIDE
-Version 7.6.0
+Version 8.0.0
 
 Author / Contact:
 Omniroute-LIMPAKUS // ROOT ACCESS LAB

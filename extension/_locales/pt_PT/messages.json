@@ -30,12 +30,87 @@
     "message": "Pesquisar plataforma…"
   },
   "privacy": {
-    "message": "PRIVACY SHIELD"
+    "message": "PRIVACY"
   },
   "settings": {
-    "message": "CONTROL MATRIX"
+    "message": "SETTINGS"
   },
   "localProcessing": {
     "message": "As credenciais são processadas apenas neste dispositivo."
+  },
+  "localSecurityNoticeTitle": {
+    "message": "AVISO DE SEGURANÇA LOCAL"
+  },
+  "localSecurityNoticeText1": {
+    "message": "Cookies temporários e cabeçalhos de autorização podem ser guardados localmente até 10 minutos durante a deteção de fornecedores."
+  },
+  "localSecurityNoticeText2": {
+    "message": "As credenciais copiadas permanecem na área de transferência até serem substituídas. Cola imediatamente no OmniRoute e limpa a área de transferência."
+  },
+  "clearCapturedData": {
+    "message": "Limpar dados capturados"
+  },
+  "dataClearedSuccess": {
+    "message": "Dados temporários capturados eliminados."
+  },
+  "dataClearedError": {
+    "message": "Não foi possível limpar os dados temporários."
+  },
+  "requestingAccess": {
+    "message": "A pedir acesso apenas ao domínio selecionado…"
+  },
+  "selectPlatformPrompt": {
+    "message": "Seleciona uma plataforma."
+  },
+  "permissionNotGranted": {
+    "message": "A permissão do domínio não foi concedida."
+  },
+  "platformOpenedPrompt": {
+    "message": "Plataforma aberta. Inicia sessão e volta a clicar em “INJETAR ACESSO E COPIAR”."
+  },
+  "credentialCopied": {
+    "message": "Credencial copiada. Cola diretamente no OmniRoute."
+  },
+  "couldNotCopy": {
+    "message": "Não foi possível copiar."
+  },
+  "activeTabError": {
+    "message": "Não foi possível identificar o separador ativo."
+  },
+  "extraDataTitle": {
+    "message": "Dados adicionais"
+  },
+  "extraDataLabel": {
+    "message": "Valor adicional"
+  },
+  "cancelBtn": {
+    "message": "Cancelar"
+  },
+  "continueBtn": {
+    "message": "Continuar"
+  },
+  "errNotFound1PSID": {
+    "message": "Não encontrei __Secure-1PSID. Inicia sessão no Gemini e atualiza a página."
+  },
+  "errNotFoundToken": {
+    "message": "Não encontrei o cookie token."
+  },
+  "errNotFoundCookies": {
+    "message": "Não encontrei cookies. Atualiza a página ou envia uma mensagem."
+  },
+  "errNotFoundSession": {
+    "message": "Não encontrei o cookie de sessão."
+  },
+  "errOperationCancelled": {
+    "message": "Operação cancelada."
+  },
+  "errMissingFields": {
+    "message": "Faltam: {fields}."
+  },
+  "errUnsupportedMethod": {
+    "message": "Método ainda não suportado."
+  },
+  "supportedPlatformsAria": {
+    "message": "Plataformas suportadas"
   }
 }

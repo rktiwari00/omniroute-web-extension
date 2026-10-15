@@ -9,7 +9,6 @@
 <body>
   <div class="shell">
     <header class="topbar">
-      
       <div class="brand brand--enhanced">
         <div class="brand-symbol" aria-hidden="true">
           <span class="brand-dot brand-dot--one"></span>
@@ -25,7 +24,17 @@
           <span>AI SESSION MATRIX</span>
         </div>
       </div>
-      <button id="settingsBtn" class="icon-btn" title="SETTINGS">⚙</button>
+      <div class="header-actions">
+        <select id="langSelect" class="lang-select" title="Change Language" aria-label="Language">
+          <option value="en">EN</option>
+          <option value="pt_PT">PT</option>
+          <option value="es">ES</option>
+          <option value="de">DE</option>
+          <option value="fr">FR</option>
+          <option value="it">IT</option>
+        </select>
+        <button id="settingsBtn" class="icon-btn" title="Settings" aria-label="Settings">⚙</button>
+      </div>
     </header>
 
     <section class="hero">
@@ -48,22 +57,23 @@
     <div id="status" class="status neutral" role="status" aria-live="polite">
       Credentials are processed only on this device.
     </div>
+
     <div class="security-notice">
-      <strong>LOCAL SECURITY NOTICE</strong>
-      <p>Temporary cookies and authorization headers may be stored locally for up to 10 minutes during provider detection.</p>
-      <p>Copied credentials remain on your clipboard until replaced. Paste immediately into OmniRoute and overwrite the clipboard afterwards.</p>
+      <strong id="securityNoticeTitle">LOCAL SECURITY NOTICE</strong>
+      <p id="securityNoticeText1">Temporary cookies and authorization headers may be stored locally for up to 10 minutes during provider detection.</p>
+      <p id="securityNoticeText2">Copied credentials remain on your clipboard until replaced. Paste immediately into OmniRoute and overwrite the clipboard afterwards.</p>
       <button id="clearDataBtn" class="clear-btn">Clear captured data</button>
     </div>
 
     <div class="toolbar">
       <label class="search">
         <span>⌕</span>
-        <input id="searchInput" type="search" placeholder="__MSG_searchPlatform__" autocomplete="off">
+        <input id="searchInput" type="search" placeholder="Search platform…" autocomplete="off">
       </label>
       <span id="countBadge" class="count">25</span>
     </div>
 
-    <section id="providerList" class="provider-list" aria-label="Plataformas suportadas"></section>
+    <section id="providerList" class="provider-list" aria-label="Supported platforms"></section>
 
     <footer>
       <span id="localOnlyLabel"><i></i> LOCAL ONLY // ZERO EXFIL</span>
@@ -73,22 +83,18 @@
 
   <dialog id="extraDialog">
     <form method="dialog">
-      <h2 id="dialogTitle">Dados adicionais</h2>
+      <h2 id="dialogTitle">Additional details</h2>
       <p id="dialogText"></p>
-      <label id="extraLabel">Valor adicional
+      <label id="extraLabel"><span>Additional value</span>
         <input id="extraInput" autocomplete="off">
       </label>
       <div class="dialog-actions">
-        <button value="cancel" class="secondary">Cancelar</button>
-        <button id="dialogConfirm" value="default" class="primary">Continuar</button>
+        <button value="cancel" class="secondary" id="dialogCancel">Cancel</button>
+        <button id="dialogConfirm" value="default" class="primary" id="dialogSubmit">Continue</button>
       </div>
     </form>
   </dialog>
 
   <script src="popup.js"></script>
-<section class="security-notice">
-<strong>Security notice</strong>
-<p>Temporary authentication data is processed locally. Paste copied credentials immediately into OmniRoute and overwrite the clipboard afterwards.</p>
-</section>
 </body>
 </html>

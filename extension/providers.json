@@ -23,7 +23,7 @@
     "required": [
       "arena-auth-prod-v1.0"
     ],
-    "hint": "Cookie completo; inclui arena-auth-prod-v1.0/.1"
+    "hint": "Full Cookie; includes arena-auth-prod-v1.0/.1"
   },
   {
     "id": "blackbox",
@@ -63,7 +63,7 @@
       "__Secure-next-auth.session-token",
       "session"
     ],
-    "hint": "Cookie de sessão"
+    "hint": "Session cookie"
   },
   {
     "id": "deepseek",
@@ -93,7 +93,7 @@
       "sessionid",
       "ttwid"
     ],
-    "hint": "Cookie completo; sessionid e ttwid"
+    "hint": "Full Cookie; sessionid and ttwid"
   },
   {
     "id": "gemini-business",
@@ -101,6 +101,10 @@
     "short": "GB",
     "domains": [
       "business.gemini.google"
+    ],
+    "cookieDomains": [
+      "google.com",
+      "gemini.google"
     ],
     "url": "https://business.gemini.google/",
     "mode": "google_cookie",
@@ -112,6 +116,9 @@
     "short": "GE",
     "domains": [
       "gemini.google.com"
+    ],
+    "cookieDomains": [
+      "google.com"
     ],
     "url": "https://gemini.google.com/",
     "mode": "google_cookie",
@@ -130,7 +137,7 @@
       "sso",
       "sso-rw"
     ],
-    "hint": "Cookie completo; sso e sso-rw"
+    "hint": "Full Cookie; sso and sso-rw"
   },
   {
     "id": "huggingchat",
@@ -144,7 +151,7 @@
     "required": [
       "hf-chat"
     ],
-    "hint": "Cookie completo; hf-chat"
+    "hint": "Full Cookie; hf-chat"
   },
   {
     "id": "inner",
@@ -156,7 +163,7 @@
     ],
     "url": "https://www.innerai.com/",
     "mode": "inner",
-    "hint": "token + email da conta"
+    "hint": "token + account email"
   },
   {
     "id": "kimi",
@@ -171,7 +178,7 @@
     "required": [
       "kimi-auth"
     ],
-    "hint": "Cookie completo; kimi-auth"
+    "hint": "Full Cookie; kimi-auth"
   },
   {
     "id": "m365",
@@ -182,7 +189,7 @@
     ],
     "url": "https://m365.cloud.microsoft/chat/",
     "mode": "manual_m365",
-    "hint": "access_token + segmento Chathub"
+    "hint": "access_token + Chathub path segment"
   },
   {
     "id": "copilot",
@@ -209,7 +216,7 @@
       "ecto_1_sess",
       "abra_sess"
     ],
-    "hint": "ecto_1_sess ou abra_sess"
+    "hint": "ecto_1_sess or abra_sess"
   },
   {
     "id": "perplexity",
@@ -245,7 +252,7 @@
     ],
     "url": "https://chat.qwen.ai/",
     "mode": "qwen",
-    "hint": "Local Storage token ou tongyi_sso_ticket"
+    "hint": "Local Storage token or tongyi_sso_ticket"
   },
   {
     "id": "t3",
@@ -256,7 +263,7 @@
     ],
     "url": "https://t3.chat/",
     "mode": "t3",
-    "hint": "convex-session-id + Cookie completo"
+    "hint": "convex-session-id + full Cookie"
   },
   {
     "id": "yuanbao",
@@ -271,7 +278,7 @@
       "hy_user",
       "hy_token"
     ],
-    "hint": "Cookie completo; hy_user e hy_token"
+    "hint": "Full Cookie; hy_user and hy_token"
   },
   {
     "id": "v0",
@@ -283,7 +290,7 @@
     "url": "https://v0.dev/",
     "mode": "cookie_header",
     "required": [],
-    "hint": "Cookie completo da sessão"
+    "hint": "Full session Cookie"
   },
   {
     "id": "venice",
@@ -295,7 +302,7 @@
     "url": "https://venice.ai/",
     "mode": "cookie_header",
     "required": [],
-    "hint": "Cookie completo da sessão"
+    "hint": "Full session Cookie"
   },
   {
     "id": "zai",
@@ -309,7 +316,7 @@
     "required": [
       "token"
     ],
-    "hint": "Cookie completo; token"
+    "hint": "Full Cookie; token"
   },
   {
     "id": "zenmux",
@@ -322,6 +329,6 @@
     "url": "https://zenmux.ai/",
     "mode": "cookie_header",
     "required": [],
-    "hint": "Todos os cookies da sessão"
+    "hint": "All session cookies"
   }
 ]

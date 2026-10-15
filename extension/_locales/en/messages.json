@@ -37,5 +37,80 @@
   },
   "localProcessing": {
     "message": "Credentials are processed only on this device."
+  },
+  "localSecurityNoticeTitle": {
+    "message": "LOCAL SECURITY NOTICE"
+  },
+  "localSecurityNoticeText1": {
+    "message": "Temporary cookies and authorization headers may be stored locally for up to 10 minutes during provider detection."
+  },
+  "localSecurityNoticeText2": {
+    "message": "Copied credentials remain on your clipboard until replaced. Paste immediately into OmniRoute and overwrite the clipboard afterwards."
+  },
+  "clearCapturedData": {
+    "message": "Clear captured data"
+  },
+  "dataClearedSuccess": {
+    "message": "Temporary captured data cleared."
+  },
+  "dataClearedError": {
+    "message": "Could not clear temporary data."
+  },
+  "requestingAccess": {
+    "message": "Requesting access to selected domain…"
+  },
+  "selectPlatformPrompt": {
+    "message": "Please select a platform."
+  },
+  "permissionNotGranted": {
+    "message": "Domain permission was not granted."
+  },
+  "platformOpenedPrompt": {
+    "message": "Platform opened. Sign in and click “AUTHORIZE AND COPY” again."
+  },
+  "credentialCopied": {
+    "message": "Credential copied. Paste it directly into OmniRoute."
+  },
+  "couldNotCopy": {
+    "message": "Could not copy credential."
+  },
+  "activeTabError": {
+    "message": "Could not identify the active tab."
+  },
+  "extraDataTitle": {
+    "message": "Additional details"
+  },
+  "extraDataLabel": {
+    "message": "Additional value"
+  },
+  "cancelBtn": {
+    "message": "Cancel"
+  },
+  "continueBtn": {
+    "message": "Continue"
+  },
+  "errNotFound1PSID": {
+    "message": "Could not find __Secure-1PSID. Please sign in to Gemini and refresh the page."
+  },
+  "errNotFoundToken": {
+    "message": "Could not find token cookie."
+  },
+  "errNotFoundCookies": {
+    "message": "Could not find cookies. Please refresh the page or send a message."
+  },
+  "errNotFoundSession": {
+    "message": "Could not find session cookie."
+  },
+  "errOperationCancelled": {
+    "message": "Operation cancelled."
+  },
+  "errMissingFields": {
+    "message": "Missing: {fields}."
+  },
+  "errUnsupportedMethod": {
+    "message": "Method not yet supported."
+  },
+  "supportedPlatformsAria": {
+    "message": "Supported platforms"
   }
 }
