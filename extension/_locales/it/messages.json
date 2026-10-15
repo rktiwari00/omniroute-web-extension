@@ -37,5 +37,62 @@
   },
   "localProcessing": {
     "message": "Le credenziali vengono elaborate solo su questo dispositivo."
+  },
+  "updaterTitle": {
+    "message": "Aggiornamento OmniRoute"
+  },
+  "updaterCheckNow": {
+    "message": "Controlla ora"
+  },
+  "updaterChecking": {
+    "message": "Controllo aggiornamenti..."
+  },
+  "updaterServerTitle": {
+    "message": "Server OmniRoute"
+  },
+  "updaterExtensionTitle": {
+    "message": "Estensione Web"
+  },
+  "updaterUpToDate": {
+    "message": "Aggiornato"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Aggiornamento disponibile"
+  },
+  "updaterServerOffline": {
+    "message": "Server non in linea"
+  },
+  "updaterCopyCommand": {
+    "message": "Copia comando di aggiornamento"
+  },
+  "updaterCopied": {
+    "message": "Copiato!"
+  },
+  "updaterDownload": {
+    "message": "Scarica ultima versione"
+  },
+  "updaterSettings": {
+    "message": "Impostazioni"
+  },
+  "updaterClose": {
+    "message": "Chiudi"
+  },
+  "updaterServerUrl": {
+    "message": "URL server OmniRoute"
+  },
+  "updaterApiKey": {
+    "message": "Chiave API di gestione (facoltativa)"
+  },
+  "updaterAutoCheck": {
+    "message": "Controlla aggiornamenti all'apertura"
+  },
+  "updaterTestConn": {
+    "message": "Testa connessione"
+  },
+  "updaterConnected": {
+    "message": "Connessione riuscita!"
+  },
+  "updaterFailed": {
+    "message": "Connessione non riuscita"
   }
 }

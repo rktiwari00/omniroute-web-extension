@@ -37,5 +37,62 @@
   },
   "localProcessing": {
     "message": "Anmeldedaten werden nur auf diesem Gerät verarbeitet."
+  },
+  "updaterTitle": {
+    "message": "OmniRoute Updater"
+  },
+  "updaterCheckNow": {
+    "message": "Jetzt prüfen"
+  },
+  "updaterChecking": {
+    "message": "Suche nach Updates..."
+  },
+  "updaterServerTitle": {
+    "message": "OmniRoute Server"
+  },
+  "updaterExtensionTitle": {
+    "message": "Web-Erweiterung"
+  },
+  "updaterUpToDate": {
+    "message": "Auf dem neuesten Stand"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Update verfügbar"
+  },
+  "updaterServerOffline": {
+    "message": "Server offline"
+  },
+  "updaterCopyCommand": {
+    "message": "Update-Befehl kopieren"
+  },
+  "updaterCopied": {
+    "message": "Kopiert!"
+  },
+  "updaterDownload": {
+    "message": "Neueste Version herunterladen"
+  },
+  "updaterSettings": {
+    "message": "Einstellungen"
+  },
+  "updaterClose": {
+    "message": "Schließen"
+  },
+  "updaterServerUrl": {
+    "message": "OmniRoute Server-URL"
+  },
+  "updaterApiKey": {
+    "message": "Verwaltungs-API-Schlüssel (optional)"
+  },
+  "updaterAutoCheck": {
+    "message": "Beim Öffnen nach Updates suchen"
+  },
+  "updaterTestConn": {
+    "message": "Verbindung testen"
+  },
+  "updaterConnected": {
+    "message": "Verbindung erfolgreich!"
+  },
+  "updaterFailed": {
+    "message": "Verbindung fehlgeschlagen"
   }
 }

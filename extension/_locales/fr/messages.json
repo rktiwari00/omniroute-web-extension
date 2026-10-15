@@ -37,5 +37,62 @@
   },
   "localProcessing": {
     "message": "Les identifiants sont traités uniquement sur cet appareil."
+  },
+  "updaterTitle": {
+    "message": "Mise à jour OmniRoute"
+  },
+  "updaterCheckNow": {
+    "message": "Vérifier maintenant"
+  },
+  "updaterChecking": {
+    "message": "Recherche de mises à jour..."
+  },
+  "updaterServerTitle": {
+    "message": "Serveur OmniRoute"
+  },
+  "updaterExtensionTitle": {
+    "message": "Extension Web"
+  },
+  "updaterUpToDate": {
+    "message": "À jour"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Mise à jour disponible"
+  },
+  "updaterServerOffline": {
+    "message": "Serveur hors ligne"
+  },
+  "updaterCopyCommand": {
+    "message": "Copier la commande de mise à jour"
+  },
+  "updaterCopied": {
+    "message": "Copié !"
+  },
+  "updaterDownload": {
+    "message": "Télécharger la dernière version"
+  },
+  "updaterSettings": {
+    "message": "Paramètres"
+  },
+  "updaterClose": {
+    "message": "Fermer"
+  },
+  "updaterServerUrl": {
+    "message": "URL du serveur OmniRoute"
+  },
+  "updaterApiKey": {
+    "message": "Clé API de gestion (optionnelle)"
+  },
+  "updaterAutoCheck": {
+    "message": "Vérifier les mises à jour à l'ouverture"
+  },
+  "updaterTestConn": {
+    "message": "Tester la connexion"
+  },
+  "updaterConnected": {
+    "message": "Connexion réussie !"
+  },
+  "updaterFailed": {
+    "message": "Échec de connexion"
   }
 }

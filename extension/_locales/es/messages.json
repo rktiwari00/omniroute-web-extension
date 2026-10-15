@@ -37,5 +37,62 @@
   },
   "localProcessing": {
     "message": "Las credenciales se procesan únicamente en este dispositivo."
+  },
+  "updaterTitle": {
+    "message": "Actualizador OmniRoute"
+  },
+  "updaterCheckNow": {
+    "message": "Comprobar ahora"
+  },
+  "updaterChecking": {
+    "message": "Buscando actualizaciones..."
+  },
+  "updaterServerTitle": {
+    "message": "Servidor OmniRoute"
+  },
+  "updaterExtensionTitle": {
+    "message": "Extensión Web"
+  },
+  "updaterUpToDate": {
+    "message": "Actualizado"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Actualización disponible"
+  },
+  "updaterServerOffline": {
+    "message": "Servidor sin conexión"
+  },
+  "updaterCopyCommand": {
+    "message": "Copiar comando de actualización"
+  },
+  "updaterCopied": {
+    "message": "¡Copiado!"
+  },
+  "updaterDownload": {
+    "message": "Descargar última versión"
+  },
+  "updaterSettings": {
+    "message": "Configuración"
+  },
+  "updaterClose": {
+    "message": "Cerrar"
+  },
+  "updaterServerUrl": {
+    "message": "URL del servidor OmniRoute"
+  },
+  "updaterApiKey": {
+    "message": "Clave API de gestión (opcional)"
+  },
+  "updaterAutoCheck": {
+    "message": "Buscar actualizaciones al abrir el popup"
+  },
+  "updaterTestConn": {
+    "message": "Probar conexión"
+  },
+  "updaterConnected": {
+    "message": "¡Conexión exitosa!"
+  },
+  "updaterFailed": {
+    "message": "Error de conexión"
   }
 }

@@ -112,5 +112,62 @@
   },
   "supportedPlatformsAria": {
     "message": "Supported platforms"
+  },
+  "updaterTitle": {
+    "message": "OmniRoute Updater"
+  },
+  "updaterCheckNow": {
+    "message": "Check Now"
+  },
+  "updaterChecking": {
+    "message": "Checking for updates..."
+  },
+  "updaterServerTitle": {
+    "message": "OmniRoute Server"
+  },
+  "updaterExtensionTitle": {
+    "message": "Web Extension"
+  },
+  "updaterUpToDate": {
+    "message": "Up to date"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Update Available"
+  },
+  "updaterServerOffline": {
+    "message": "Server Offline"
+  },
+  "updaterCopyCommand": {
+    "message": "Copy Update Command"
+  },
+  "updaterCopied": {
+    "message": "Copied!"
+  },
+  "updaterDownload": {
+    "message": "Download Latest Release"
+  },
+  "updaterSettings": {
+    "message": "Settings"
+  },
+  "updaterClose": {
+    "message": "Close"
+  },
+  "updaterServerUrl": {
+    "message": "OmniRoute Server URL"
+  },
+  "updaterApiKey": {
+    "message": "Management API Key (optional)"
+  },
+  "updaterAutoCheck": {
+    "message": "Check for updates when popup opens"
+  },
+  "updaterTestConn": {
+    "message": "Test Connection"
+  },
+  "updaterConnected": {
+    "message": "Connected successfully!"
+  },
+  "updaterFailed": {
+    "message": "Connection failed"
   }
 }

@@ -112,5 +112,62 @@
   },
   "supportedPlatformsAria": {
     "message": "Plataformas suportadas"
+  },
+  "updaterTitle": {
+    "message": "Atualizador OmniRoute"
+  },
+  "updaterCheckNow": {
+    "message": "Verificar Agora"
+  },
+  "updaterChecking": {
+    "message": "A verificar atualizações..."
+  },
+  "updaterServerTitle": {
+    "message": "Servidor OmniRoute"
+  },
+  "updaterExtensionTitle": {
+    "message": "Extensão Web"
+  },
+  "updaterUpToDate": {
+    "message": "Atualizado"
+  },
+  "updaterUpdateAvailable": {
+    "message": "Atualização Disponível"
+  },
+  "updaterServerOffline": {
+    "message": "Servidor Offline"
+  },
+  "updaterCopyCommand": {
+    "message": "Copiar Comando de Atualização"
+  },
+  "updaterCopied": {
+    "message": "Copiado!"
+  },
+  "updaterDownload": {
+    "message": "Descarregar Versão Recente"
+  },
+  "updaterSettings": {
+    "message": "Definições"
+  },
+  "updaterClose": {
+    "message": "Fechar"
+  },
+  "updaterServerUrl": {
+    "message": "URL do Servidor OmniRoute"
+  },
+  "updaterApiKey": {
+    "message": "Chave de Gestão da API (opcional)"
+  },
+  "updaterAutoCheck": {
+    "message": "Verificar atualizações ao abrir popup"
+  },
+  "updaterTestConn": {
+    "message": "Testar Ligação"
+  },
+  "updaterConnected": {
+    "message": "Ligação bem-sucedida!"
+  },
+  "updaterFailed": {
+    "message": "Falha na ligação"
   }
 }
