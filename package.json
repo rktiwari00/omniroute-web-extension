@@ -1,0 +1,18 @@
+{
+  "name": "omniroute-web-extension",
+  "version": "8.1.0",
+  "description": "Chrome/Chromium extension companion for OmniRoute AI Gateway",
+  "main": "extension/background.js",
+  "scripts": {
+    "test": "node tests/updater.test.js",
+    "wiki:push": "node scripts/sync-wiki.js"
+  },
+  "keywords": [
+    "omniroute",
+    "chrome-extension",
+    "ai-gateway",
+    "session-extractor"
+  ],
+  "author": "rktiwari00",
+  "license": "MIT"
+}
